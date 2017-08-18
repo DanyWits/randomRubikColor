@@ -1,0 +1,29 @@
+{
+  "name": "randomcolor",
+  "version": "0.1.0",
+  "description": "Generador de color aleatorio del cubo rubik",
+  "main": "dist/src/randomcolor.js",
+  "scripts": {
+    "build": "babel src/randomColor.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016\u0016\u0016\u0016\u0016https://github.com/DanyWits/randomRubikColor"
+  },
+  "keywords": [
+    "rubik",
+    "color",
+    "random",
+    "wits",
+    "js"
+  ],
+  "author": "Daniel Ruvalcaba <danyxd1098@hotmail.com> (https://facebook.com/eldanieloso)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
